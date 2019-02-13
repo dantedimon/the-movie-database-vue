@@ -1,4 +1,6 @@
-# the-movie-database
+# The movie database VueJS
+
+This app allows reviewing movies from The Movie Database API.
 
 ## Project setup
 ```
