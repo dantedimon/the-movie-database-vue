@@ -7,4 +7,8 @@ let app = express();
 
 app.use(serveStatic(__dirname + "/dist"));
 
+app.get('*', (request, response) => {
+    response.sendFile(path.resolve(__dirname + "/dist", 'index.html'));
+});
+
 app.listen(port);
